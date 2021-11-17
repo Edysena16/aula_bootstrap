@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0C5C3C7B-0C07-AB04-0A42-8ABA153FE6FC" name="MEMBER">
+<createdBy>Edvaldo Sena</createdBy>
+<createdTime>2021-11-17 02:46:32 UTC</createdTime>
+<generatorID>DF731FC9-E5B8-8F51-D5FA-AE3667F33426</generatorID>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="0980A897-7600-6048-60B5-4A1ACD49037D">
+<createdBy>Edvaldo Sena</createdBy>
+<createdTime>2021-11-17 02:46:32 UTC</createdTime>
+<generatorID>51C88387-FF1F-BB30-0C34-58D142DDC7C8</generatorID>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="First_Name" id="983B1685-C2B1-1CFD-816E-DD546194627C">
+<createdBy>Edvaldo Sena</createdBy>
+<createdTime>2021-11-17 02:46:32 UTC</createdTime>
+<generatorID>086A0E17-CBAC-CBC3-6DD5-4E0B9608FAA7</generatorID>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Last_Name" id="C9B5630B-DD88-8B7C-AF87-A61F11B8CEDC">
+<createdBy>Edvaldo Sena</createdBy>
+<createdTime>2021-11-17 02:46:32 UTC</createdTime>
+<generatorID>CC7374C1-A934-4607-0487-8A18DB003966</generatorID>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Street_Address" id="C1EF2938-E264-757F-0B35-2CD6500EB2BE">
+<createdBy>Edvaldo Sena</createdBy>
+<createdTime>2021-11-17 02:46:32 UTC</createdTime>
+<generatorID>56234F8D-A528-92EF-A12F-CF58689681BB</generatorID>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="City" id="F7466B32-FD02-FCFC-084D-8773A9A46BAF">
+<createdBy>Edvaldo Sena</createdBy>
+<createdTime>2021-11-17 02:46:32 UTC</createdTime>
+<generatorID>A49CD0DE-32A2-ABB7-5283-734BE7AB1065</generatorID>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="State" id="F2FBAE3C-5DD6-B358-BFAC-E748317BD44A">
+<createdBy>Edvaldo Sena</createdBy>
+<createdTime>2021-11-17 02:46:32 UTC</createdTime>
+<generatorID>CBEFF3BA-5238-950F-0C0E-124C15BBA22E</generatorID>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZIP" id="EEF1C6F2-7A4B-010B-9F16-36E9CDE4E178">
+<createdBy>Edvaldo Sena</createdBy>
+<createdTime>2021-11-17 02:46:32 UTC</createdTime>
+<generatorID>D5E6A1EB-A917-D496-7EAD-2222B3437E23</generatorID>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="117AD225-16A5-BFEE-924D-7C17516A1F54" name="MEMBER_PK">
+<createdBy>Edvaldo Sena</createdBy>
+<createdTime>2021-11-17 02:46:32 UTC</createdTime>
+<generatorID>6F52C015-5D15-626A-3123-2E3B49E7B1BC</generatorID>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0980A897-7600-6048-60B5-4A1ACD49037D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

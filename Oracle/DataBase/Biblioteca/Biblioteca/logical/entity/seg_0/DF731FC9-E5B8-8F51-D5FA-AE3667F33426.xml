@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DF731FC9-E5B8-8F51-D5FA-AE3667F33426" name="MEMBER">
+<createdBy>Edvaldo Sena</createdBy>
+<createdTime>2021-11-17 02:36:42 UTC</createdTime>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<engineerTo>
+<item key="759D6A03-A262-E8C4-0200-59E2879794C6" value="true"/>
+<item key="9BA9A8D0-E5BC-8E94-44A9-50956052CF34" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="51C88387-FF1F-BB30-0C34-58D142DDC7C8">
+<createdBy>Edvaldo Sena</createdBy>
+<createdTime>2021-11-17 02:37:02 UTC</createdTime>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<engineerTo>
+<item key="759D6A03-A262-E8C4-0200-59E2879794C6" value="true"/>
+<item key="9BA9A8D0-E5BC-8E94-44A9-50956052CF34" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="First Name" id="086A0E17-CBAC-CBC3-6DD5-4E0B9608FAA7">
+<createdBy>Edvaldo Sena</createdBy>
+<createdTime>2021-11-17 02:37:08 UTC</createdTime>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<engineerTo>
+<item key="759D6A03-A262-E8C4-0200-59E2879794C6" value="true"/>
+<item key="9BA9A8D0-E5BC-8E94-44A9-50956052CF34" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Last Name" id="CC7374C1-A934-4607-0487-8A18DB003966">
+<createdBy>Edvaldo Sena</createdBy>
+<createdTime>2021-11-17 02:37:32 UTC</createdTime>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<engineerTo>
+<item key="759D6A03-A262-E8C4-0200-59E2879794C6" value="true"/>
+<item key="9BA9A8D0-E5BC-8E94-44A9-50956052CF34" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Street Address" id="56234F8D-A528-92EF-A12F-CF58689681BB">
+<createdBy>Edvaldo Sena</createdBy>
+<createdTime>2021-11-17 02:37:41 UTC</createdTime>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<engineerTo>
+<item key="759D6A03-A262-E8C4-0200-59E2879794C6" value="true"/>
+<item key="9BA9A8D0-E5BC-8E94-44A9-50956052CF34" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="City" id="A49CD0DE-32A2-ABB7-5283-734BE7AB1065">
+<createdBy>Edvaldo Sena</createdBy>
+<createdTime>2021-11-17 02:38:21 UTC</createdTime>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<engineerTo>
+<item key="759D6A03-A262-E8C4-0200-59E2879794C6" value="true"/>
+<item key="9BA9A8D0-E5BC-8E94-44A9-50956052CF34" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="State" id="CBEFF3BA-5238-950F-0C0E-124C15BBA22E">
+<createdBy>Edvaldo Sena</createdBy>
+<createdTime>2021-11-17 02:38:32 UTC</createdTime>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<engineerTo>
+<item key="759D6A03-A262-E8C4-0200-59E2879794C6" value="true"/>
+<item key="9BA9A8D0-E5BC-8E94-44A9-50956052CF34" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ZIP" id="D5E6A1EB-A917-D496-7EAD-2222B3437E23">
+<createdBy>Edvaldo Sena</createdBy>
+<createdTime>2021-11-17 02:40:01 UTC</createdTime>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<engineerTo>
+<item key="759D6A03-A262-E8C4-0200-59E2879794C6" value="true"/>
+<item key="9BA9A8D0-E5BC-8E94-44A9-50956052CF34" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6F52C015-5D15-626A-3123-2E3B49E7B1BC" name="MEMBER PK">
+<createdBy>Edvaldo Sena</createdBy>
+<createdTime>2021-11-17 02:37:06 UTC</createdTime>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<engineerTo>
+<item key="759D6A03-A262-E8C4-0200-59E2879794C6" value="true"/>
+<item key="9BA9A8D0-E5BC-8E94-44A9-50956052CF34" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>51C88387-FF1F-BB30-0C34-58D142DDC7C8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

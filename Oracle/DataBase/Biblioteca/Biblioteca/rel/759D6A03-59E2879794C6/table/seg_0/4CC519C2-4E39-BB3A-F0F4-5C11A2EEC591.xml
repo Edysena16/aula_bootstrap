@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4CC519C2-4E39-BB3A-F0F4-5C11A2EEC591" name="BOOK">
+<createdBy>Edvaldo Sena</createdBy>
+<createdTime>2021-11-17 02:46:32 UTC</createdTime>
+<generatorID>659A7467-953F-B2D1-2EB3-D795AB1F4D56</generatorID>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="B6D6F26D-6720-3646-65F1-345E8280C596">
+<createdBy>Edvaldo Sena</createdBy>
+<createdTime>2021-11-17 02:46:32 UTC</createdTime>
+<generatorID>69A22EED-6A27-D119-A81E-AF10F164A082</generatorID>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Title" id="28DB0BD5-015C-C6AF-134C-0EBFCE1A1E98">
+<createdBy>Edvaldo Sena</createdBy>
+<createdTime>2021-11-17 02:46:32 UTC</createdTime>
+<generatorID>D325ED3A-432C-1DEC-5E16-81104BD81D34</generatorID>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PUBLISHER_Id" id="21BC683F-4F2A-7FDD-505B-AF3142ABBC18">
+<createdBy>Edvaldo Sena</createdBy>
+<createdTime>2021-11-17 02:46:32 UTC</createdTime>
+<generatorID>2A68D220-8064-F388-B082-456B63E53FD1</generatorID>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="18F7EEEC-73DA-E9C2-6F1D-70BA595C4A50" referredColumn="E70A7FA7-D7E2-5B53-9C2D-D528694817BF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8BF4B85D-4588-EBCC-FCCD-9C02701073BC" name="BOOK_PK">
+<createdBy>Edvaldo Sena</createdBy>
+<createdTime>2021-11-17 02:46:32 UTC</createdTime>
+<generatorID>8EE0DCE3-DF01-57CB-B3A7-7478838D925E</generatorID>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6D6F26D-6720-3646-65F1-345E8280C596"/>
+<colUsage columnID="21BC683F-4F2A-7FDD-505B-AF3142ABBC18"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D5F32770-2B53-7DB1-7279-9C69BEDE2769" name="BOOK_PUBLISHER_FK">
+<createdBy>Edvaldo Sena</createdBy>
+<createdTime>2021-11-17 02:46:32 UTC</createdTime>
+<generatorID>5DB24A34-3EE3-917B-4304-CD50E84B5080</generatorID>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21BC683F-4F2A-7FDD-505B-AF3142ABBC18"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

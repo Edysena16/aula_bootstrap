@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="943C8681-ED14-C6A1-5EFF-243500FE65FE" name="BOOK_TRANSITION">
+<createdBy>Edvaldo Sena</createdBy>
+<createdTime>2021-11-17 02:46:32 UTC</createdTime>
+<generatorID>D55FB006-A566-5846-173C-05AD7D21FDC8</generatorID>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Tran" id="4C4BCB9F-DF52-D9DC-A965-12139E892484">
+<createdBy>Edvaldo Sena</createdBy>
+<createdTime>2021-11-17 02:46:32 UTC</createdTime>
+<generatorID>6F533022-61C6-3242-BF5A-ABEDF5C8EEAF</generatorID>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Type" id="1408B3D1-0C73-6C86-88D5-D349E389A29F">
+<createdBy>Edvaldo Sena</createdBy>
+<createdTime>2021-11-17 02:46:32 UTC</createdTime>
+<generatorID>6C3F03DF-E98D-AEA9-E06C-3DDAD9F925A7</generatorID>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BOOK_Id" id="16057F8F-218A-4FA2-EEF1-5D16610A1A0E">
+<createdBy>Edvaldo Sena</createdBy>
+<createdTime>2021-11-17 02:46:32 UTC</createdTime>
+<generatorID>1B683AB7-9543-07E4-A818-D1B227CAB7B0</generatorID>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2217B66A-B84C-FCEF-FEAE-752533419DE0" referredColumn="B6D6F26D-6720-3646-65F1-345E8280C596"/>
+</associations>
+</Column>
+<Column name="MEMBER_Id" id="9FF2F514-8037-1FE0-4305-F873C09CB732">
+<createdBy>Edvaldo Sena</createdBy>
+<createdTime>2021-11-17 02:46:32 UTC</createdTime>
+<generatorID>BCD50BEE-B22C-5B57-EF40-66856F47D892</generatorID>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E613BF0B-E4D4-FAD3-0E57-B8A2CF644EDE" referredColumn="0980A897-7600-6048-60B5-4A1ACD49037D"/>
+</associations>
+</Column>
+<Column name="BOOK_Id1" id="E93A8104-701E-8648-26A9-E4D44FF14FBF">
+<createdBy>Edvaldo Sena</createdBy>
+<createdTime>2021-11-17 02:46:32 UTC</createdTime>
+<generatorID>1234A9E8-89C7-296A-5A9F-DF8E83028826</generatorID>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2217B66A-B84C-FCEF-FEAE-752533419DE0" referredColumn="21BC683F-4F2A-7FDD-505B-AF3142ABBC18"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F3711955-C28C-F7BC-E9BE-12D670A38248" name="BOOK_TRANSITION_PK">
+<createdBy>Edvaldo Sena</createdBy>
+<createdTime>2021-11-17 02:46:32 UTC</createdTime>
+<generatorID>D9632EA2-7369-CB51-94B8-B5D7F289A908</generatorID>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C4BCB9F-DF52-D9DC-A965-12139E892484"/>
+<colUsage columnID="16057F8F-218A-4FA2-EEF1-5D16610A1A0E"/>
+<colUsage columnID="E93A8104-701E-8648-26A9-E4D44FF14FBF"/>
+<colUsage columnID="9FF2F514-8037-1FE0-4305-F873C09CB732"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="371AB112-0F87-6110-6519-619275BA3BDD" name="BOOK_TRANSITION_BOOK_FK">
+<createdBy>Edvaldo Sena</createdBy>
+<createdTime>2021-11-17 02:46:32 UTC</createdTime>
+<generatorID>F9AD2E65-BD16-0387-89EE-6935C7330ADD</generatorID>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16057F8F-218A-4FA2-EEF1-5D16610A1A0E"/>
+<colUsage columnID="E93A8104-701E-8648-26A9-E4D44FF14FBF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="893124F7-66A6-DCFE-3F88-18CE76E00E4B" name="BOOK_TRANSITION_MEMBER_FK">
+<createdBy>Edvaldo Sena</createdBy>
+<createdTime>2021-11-17 02:46:32 UTC</createdTime>
+<generatorID>02A10F36-FE2C-0754-3457-6051819FB44F</generatorID>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9FF2F514-8037-1FE0-4305-F873C09CB732"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

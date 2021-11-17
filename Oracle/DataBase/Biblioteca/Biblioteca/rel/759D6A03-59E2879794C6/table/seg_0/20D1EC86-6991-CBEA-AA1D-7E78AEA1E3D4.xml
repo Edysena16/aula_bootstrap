@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="20D1EC86-6991-CBEA-AA1D-7E78AEA1E3D4" name="BookAuthor">
+<createdBy>Edvaldo Sena</createdBy>
+<createdTime>2021-11-17 02:46:32 UTC</createdTime>
+<generatorID>D29A2ACF-9C2B-5600-7E18-E10EB36988F7</generatorID>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BOOK_Id" id="D3E71296-DB7D-C760-6191-8AADF2E1FE76">
+<createdBy>Edvaldo Sena</createdBy>
+<createdTime>2021-11-17 02:46:32 UTC</createdTime>
+<generatorID>A2BEB63D-73BF-7120-9014-620C297588C9</generatorID>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A60AA103-879E-98AF-2272-63D205D300A6" referredColumn="B6D6F26D-6720-3646-65F1-345E8280C596"/>
+</associations>
+</Column>
+<Column name="AUTHOR_ID" id="7D9F0FE3-C7A7-99FF-BEE9-5AA31A5F3910">
+<createdBy>Edvaldo Sena</createdBy>
+<createdTime>2021-11-17 02:46:32 UTC</createdTime>
+<generatorID>2B39177F-F43E-98D5-112C-3BF7FF5C7FEF</generatorID>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A2E5189B-0321-EC9A-9BE4-4CFA65DBAE9C" referredColumn="19C92AD5-9B98-CBFF-353B-5965A2B3BA16"/>
+</associations>
+</Column>
+<Column name="BOOK_Id1" id="4FF69D40-4138-BDC8-B33A-2A77773D79F4">
+<createdBy>Edvaldo Sena</createdBy>
+<createdTime>2021-11-17 02:46:32 UTC</createdTime>
+<generatorID>4D3AE494-4764-6B47-207D-128D9DD495B2</generatorID>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A60AA103-879E-98AF-2272-63D205D300A6" referredColumn="21BC683F-4F2A-7FDD-505B-AF3142ABBC18"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D0E65357-D36C-529D-7DE2-22BCFA3BB0DC" name="BookAuthor_PK">
+<createdBy>Edvaldo Sena</createdBy>
+<createdTime>2021-11-17 02:46:32 UTC</createdTime>
+<generatorID>3495A5D9-4B0F-3A13-83BE-F2CF55D86C6F</generatorID>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3E71296-DB7D-C760-6191-8AADF2E1FE76"/>
+<colUsage columnID="4FF69D40-4138-BDC8-B33A-2A77773D79F4"/>
+<colUsage columnID="7D9F0FE3-C7A7-99FF-BEE9-5AA31A5F3910"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DBC2917F-0E78-2736-A1BD-0486C1FCC1E3" name="BookAuthor_BOOK_FK">
+<createdBy>Edvaldo Sena</createdBy>
+<createdTime>2021-11-17 02:46:32 UTC</createdTime>
+<generatorID>1ADE0270-244B-1BDD-E056-D851920E6A38</generatorID>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3E71296-DB7D-C760-6191-8AADF2E1FE76"/>
+<colUsage columnID="4FF69D40-4138-BDC8-B33A-2A77773D79F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="79EC7F6F-1789-8191-9C0B-50A2AC9D2B25" name="BookAuthor_AUTHOR_FK">
+<createdBy>Edvaldo Sena</createdBy>
+<createdTime>2021-11-17 02:46:32 UTC</createdTime>
+<generatorID>4A7B4F03-5045-8E83-C42B-D410493F1AEA</generatorID>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D9F0FE3-C7A7-99FF-BEE9-5AA31A5F3910"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
