@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="03D444BE-98FA-FFEF-DE41-5F6E301DBFAE" containerWithKeyObject="B199178A-2073-5839-936D-3BC5204094D5" localFKIndex="A877D943-592B-1F7F-FB27-12D74B6CEDEF" name="EMPRESTAR_LIVRO_LIVRO_FK">
+<createdBy>Edvaldo Sena</createdBy>
+<createdTime>2021-11-17 23:44:44 UTC</createdTime>
+<generatorID>F9AD2E65-BD16-0387-89EE-6935C7330ADD</generatorID>
+<ownerDesignName>Bliblioteca_Modelo_Logico_Fisico</ownerDesignName>
+<referredTableLongName>LIVRO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C479F890-55FA-2815-BC99-D8A61583E2B4</referredTableID>
+<keyObject>A19E9B00-CC3C-409D-20A6-3ABA02A18EBB</keyObject>
+<referredKeyID>A19E9B00-CC3C-409D-20A6-3ABA02A18EBB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID,PUBLICADO_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

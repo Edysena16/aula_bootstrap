@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2217B66A-B84C-FCEF-FEAE-752533419DE0" containerWithKeyObject="943C8681-ED14-C6A1-5EFF-243500FE65FE" localFKIndex="371AB112-0F87-6110-6519-619275BA3BDD" name="BOOK_TRANSITION_BOOK_FK">
+<createdBy>Edvaldo Sena</createdBy>
+<createdTime>2021-11-17 02:46:32 UTC</createdTime>
+<generatorID>F9AD2E65-BD16-0387-89EE-6935C7330ADD</generatorID>
+<ownerDesignName>Bliblioteca_Modelo_Logico_Fisico</ownerDesignName>
+<referredTableLongName>BOOK</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4CC519C2-4E39-BB3A-F0F4-5C11A2EEC591</referredTableID>
+<keyObject>8BF4B85D-4588-EBCC-FCCD-9C02701073BC</keyObject>
+<referredKeyID>8BF4B85D-4588-EBCC-FCCD-9C02701073BC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Id,PUBLISHER_Id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

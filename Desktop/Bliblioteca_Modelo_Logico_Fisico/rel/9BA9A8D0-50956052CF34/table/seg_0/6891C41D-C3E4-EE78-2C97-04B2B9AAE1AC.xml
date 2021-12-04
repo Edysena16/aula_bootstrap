@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6891C41D-C3E4-EE78-2C97-04B2B9AAE1AC" name="AUTHOR">
+<createdBy>Edvaldo Sena</createdBy>
+<createdTime>2021-11-17 23:44:44 UTC</createdTime>
+<generatorID>090950AE-F225-7466-F0AF-B9CCEA292764</generatorID>
+<ownerDesignName>Bliblioteca_Modelo_Logico_Fisico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="8A5FA9C8-8430-97BE-3640-ED1BCFBD679A">
+<createdBy>Edvaldo Sena</createdBy>
+<createdTime>2021-11-17 23:44:44 UTC</createdTime>
+<generatorID>E7397750-8D37-E1E2-0C57-F2C375DAAFFA</generatorID>
+<ownerDesignName>Bliblioteca_Modelo_Logico_Fisico</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nome" id="325300B3-8592-EC74-5029-77FF0B5D2614">
+<createdBy>Edvaldo Sena</createdBy>
+<createdTime>2021-11-17 23:44:44 UTC</createdTime>
+<generatorID>C948CF09-C142-BD26-50C6-85E374CB7774</generatorID>
+<ownerDesignName>Bliblioteca_Modelo_Logico_Fisico</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A1CFE1C8-B5BE-18D3-2F1A-FA654F56B428" name="AUTHOR_PK">
+<createdBy>Edvaldo Sena</createdBy>
+<createdTime>2021-11-17 23:44:44 UTC</createdTime>
+<generatorID>2DB4906D-6438-B4CC-E1C3-34E21218A4C4</generatorID>
+<ownerDesignName>Bliblioteca_Modelo_Logico_Fisico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A5FA9C8-8430-97BE-3640-ED1BCFBD679A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_3" directorySegmentName="seg_0" id="1ADE0270-244B-1BDD-E056-D851920E6A38">
+<createdBy>Edvaldo Sena</createdBy>
+<createdTime>2021-11-17 02:43:44 UTC</createdTime>
+<ownerDesignName>Bliblioteca_Modelo_Logico_Fisico</ownerDesignName>
+<engineerTo>
+<item key="9BA9A8D0-E5BC-8E94-44A9-50956052CF34" value="true"/>
+<item key="759D6A03-A262-E8C4-0200-59E2879794C6" value="true"/>
+</engineerTo>
+<sourcePk>8EE0DCE3-DF01-57CB-B3A7-7478838D925E</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>659A7467-953F-B2D1-2EB3-D795AB1F4D56</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D29A2ACF-9C2B-5600-7E18-E10EB36988F7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

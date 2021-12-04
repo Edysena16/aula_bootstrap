@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A47E3038-BA15-F224-22BC-10335C08B189" name="PUBLISHER">
+<createdBy>Edvaldo Sena</createdBy>
+<createdTime>2021-11-17 02:46:32 UTC</createdTime>
+<generatorID>8E3E73D4-B52A-7C7B-F1DD-93CC2D58FAD4</generatorID>
+<ownerDesignName>Bliblioteca_Modelo_Logico_Fisico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="E70A7FA7-D7E2-5B53-9C2D-D528694817BF">
+<createdBy>Edvaldo Sena</createdBy>
+<createdTime>2021-11-17 02:46:32 UTC</createdTime>
+<generatorID>4182DF14-38CA-736E-590A-A6CDD14FCACB</generatorID>
+<ownerDesignName>Bliblioteca_Modelo_Logico_Fisico</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="83C1CE81-6889-2834-15E5-04D0C13332DE">
+<createdBy>Edvaldo Sena</createdBy>
+<createdTime>2021-11-17 02:46:32 UTC</createdTime>
+<generatorID>D5CF1B76-B947-8F8E-BE34-12F26675749B</generatorID>
+<ownerDesignName>Bliblioteca_Modelo_Logico_Fisico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1ACADAA8-49AE-A85E-B9C8-986E7B05E61C" name="PUBLISHER_PK">
+<createdBy>Edvaldo Sena</createdBy>
+<createdTime>2021-11-17 02:46:32 UTC</createdTime>
+<generatorID>0E27D6F6-3DF3-F42D-290F-774530638C30</generatorID>
+<ownerDesignName>Bliblioteca_Modelo_Logico_Fisico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E70A7FA7-D7E2-5B53-9C2D-D528694817BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
