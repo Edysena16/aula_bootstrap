@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Bliblioteca_Modelo_Logico_Fisico" id="49CC0DFB-31BE-2226-65F8-D8F9FAE79D98" version="3.5">
-<createdBy>Edvaldo Sena</createdBy>
-<createdTime>2021-11-17 02:16:20 UTC</createdTime>
-<ownerDesignName>Biblioteca</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>49CC0DFB-31BE-2226-65F8-D8F9FAE79D98</designId>
-</OSDM_Design>
